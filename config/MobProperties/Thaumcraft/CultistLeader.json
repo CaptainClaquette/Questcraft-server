@@ -1,0 +1,21 @@
+{
+  "_name": "Thaumcraft.CultistLeader",
+  "drops": [
+    {
+      "_comment": "add gold coin",
+      "function": "all",
+      "count":1,
+      "functions": [
+        {
+          "_comment": "add gold coin drop",
+          "function": "add",
+          "id": "Thaumcraft:ItemResource",
+          "damage":18,
+          "count":"5~10"
+        }
+      ]
+    }
+  ],
+  "pre_stats": [],
+  "stats": []
+}

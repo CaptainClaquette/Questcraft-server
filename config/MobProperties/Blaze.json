@@ -1,0 +1,21 @@
+{
+  "_name": "Blaze",
+  "drops": [
+    {
+      "_comment": "add gold coin",
+      "function": "all",
+      "count":0.20,
+      "functions": [
+        {
+          "_comment": "add gold coin drop",
+          "function": "add",
+          "id": "Thaumcraft:ItemResource",
+          "damage":18,
+          "count":"1~2"
+        }
+      ]
+    }
+  ],
+  "pre_stats": [],
+  "stats": []
+}

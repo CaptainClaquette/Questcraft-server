@@ -1,0 +1,21 @@
+{
+  "_name": "Enderman",
+  "drops": [
+    {
+      "_comment": "add gold coin",
+      "function": "all",
+      "count":0.5,
+      "functions": [
+        {
+          "_comment": "add gold coin drop",
+          "function": "add",
+          "id": "Thaumcraft:ItemResource",
+          "damage":18,
+          "count":"1~5"
+        }
+      ]
+    }
+  ],
+  "pre_stats": [],
+  "stats": []
+}
